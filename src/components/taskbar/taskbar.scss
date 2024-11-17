@@ -1,6 +1,6 @@
 .taskbar {
-  --bg1: rgba(243, 243, 243, 0.85);
-  --bg2: rgba(255, 255, 255, 0.67);
+  --bg1: rgba(243, 243, 243, 0.30);
+  --bg2: rgba(255, 255, 255, 0.80);
 
   position: absolute;
   width: 100vw;
@@ -15,8 +15,8 @@
 
 body[data-theme="dark"] {
   .taskbar {
-    --bg1: rgba(32, 32, 32, 0.75);
-    --bg2: rgba(255, 255, 255, 0.1);
+    --bg1: rgba(32, 32, 32, 0.6);
+    --bg2: rgba(200, 200, 200, 0.1);
   }
 
   .taskIcon,
@@ -48,7 +48,7 @@ body[data-theme="dark"] {
   width: 24px;
 
   svg {
-    color: #303030;
+    color: #404040;
   }
 }
 
@@ -148,10 +148,10 @@ body[data-theme="dark"] {
     transform: scale(0);
   }
   40% {
-    transform: scale(1.125);
+    transform: scale(1.4);
   }
   70% {
-    transform: scale(0.725);
+    transform: scale(0.7);
   }
   100% {
     transform: scale(1);
